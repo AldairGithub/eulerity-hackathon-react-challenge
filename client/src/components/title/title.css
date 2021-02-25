@@ -1,6 +1,12 @@
+@keyframes color-change {
+  0% { color: #9b5de5; }
+  50% {color: #ff006e; }
+  100% { color: #9b5de5 }
+}
 .title {
   text-align: center;
   font-family: 'Dancing Script', cursive;
   color: #9b5de5;
   font-size: 6vw;
+  animation: color-change 4s infinite;
 }

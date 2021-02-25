@@ -11,7 +11,7 @@ export default function PetContainer(props) {
     const date = data.split(" ")
     return (
       <>
-        <p className='pet-joined'>{ `Joined on ${date[0]}, ${date[1]} ${date[2]}, ${date.length - 1}` }</p>
+        <p className='pet-joined'>{ `Joined on ${date[0]}, ${date[1]} ${date[2]}, ${date[date.length - 1]}` }</p>
       </>
     )
   }
