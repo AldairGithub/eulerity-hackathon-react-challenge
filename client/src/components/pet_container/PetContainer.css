@@ -1,0 +1,72 @@
+.img-container {
+  height: 100%;
+  max-width: 800px;
+  min-width: 800px;
+  background-color: #f8edeb;
+  margin-bottom: 3%;
+  border-radius: 15px;
+}
+.img-pet {
+  max-height: 300px;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+  display: block;
+  margin: 15px auto;
+}
+.text-div {
+  padding:  15px;
+  font-family: 'Hind', sans-serif;
+}
+.pet-title {
+  text-align: center;
+  font-size: 3vw;
+  margin: 0 auto;
+  color: #6c757d
+}
+.pet-joined {
+  color: #b1a7a6;
+}
+.pet-description {
+  color: #6c757e
+}
+.download-button-container {
+  text-align: center;
+  margin: 0 auto;
+}
+.download-button {
+  background-color: #cdb4db;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+.selected-img {
+  opacity: 0.5;
+  border: 2px solid #ffc8dd
+}
+
+@media (max-width: 768px) {
+  .img-container {
+    max-width: 700px;
+    min-width: 700px;
+  }
+}
+
+@media (max-width: 375px) {
+  .img-pet {
+    max-height: 200px;
+    max-width: 260px;
+  }
+  .img-container {
+    max-width: 300px;
+    min-width: 300px;
+  }
+  .download-button {
+    width: 100%;
+  }
+}
